@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-const uri = "mongodb+srv://ml:68RrzjSSGJzyVgGi@cluster0.ef6txkd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://kd:XFIZc7mR8h4mKRMJ@cluster0.tsg7icv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const client = new MongoClient(uri);
 
